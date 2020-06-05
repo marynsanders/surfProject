@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="hads" id="hads">
+	<SimpleField name="stn" type="string"></SimpleField>
+	<SimpleField name="lat" type="float"></SimpleField>
+	<SimpleField name="lon" type="float"></SimpleField>
+	<SimpleField name="elev" type="float"></SimpleField>
+	<SimpleField name="datestart" type="string"></SimpleField>
+	<SimpleField name="network" type="string"></SimpleField>
+	<SimpleField name="stncode" type="string"></SimpleField>
+</Schema>
+<Folder><name>hads</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#hads">
+		<SimpleData name="stn">Sacramento River 13 AT Moulton Weir</SimpleData>
+		<SimpleData name="lat">39.3383</SimpleData>
+		<SimpleData name="lon">-122.0217</SimpleData>
+		<SimpleData name="elev">22</SimpleData>
+		<SimpleData name="datestart">2010/12/07 08:45:00</SimpleData>
+		<SimpleData name="network">CA_DCP</SimpleData>
+		<SimpleData name="stncode">CLSC1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.0217,39.3383</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#hads">
+		<SimpleData name="stn">CACHE CK NR LOWER LAKE  CA</SimpleData>
+		<SimpleData name="lat">38.9242</SimpleData>
+		<SimpleData name="lon">-122.5647</SimpleData>
+		<SimpleData name="elev">446</SimpleData>
+		<SimpleData name="datestart">2010/12/15 11:45:00</SimpleData>
+		<SimpleData name="network">CA_DCP</SimpleData>
+		<SimpleData name="stncode">CLFC1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.5647,38.9242</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#hads">
+		<SimpleData name="stn">EAST PARK RESERVOIR</SimpleData>
+		<SimpleData name="lat">39.3592</SimpleData>
+		<SimpleData name="lon">-122.5178</SimpleData>
+		<SimpleData name="elev">343</SimpleData>
+		<SimpleData name="datestart">2010/12/07 10:00:00</SimpleData>
+		<SimpleData name="network">CA_COOP</SimpleData>
+		<SimpleData name="stncode">EPRC1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.5178,39.3592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#hads">
+		<SimpleData name="stn">CLEARLAKE 4 SE</SimpleData>
+		<SimpleData name="lat">38.9239</SimpleData>
+		<SimpleData name="lon">-122.5672</SimpleData>
+		<SimpleData name="elev">437</SimpleData>
+		<SimpleData name="datestart">2010/12/09 10:00:00</SimpleData>
+		<SimpleData name="network">CA_COOP</SimpleData>
+		<SimpleData name="stncode">CLRC1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.5672,38.9239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#hads">
+		<SimpleData name="stn">Colusa 2 SSW</SimpleData>
+		<SimpleData name="lat">39.1875</SimpleData>
+		<SimpleData name="lon">-122.0269</SimpleData>
+		<SimpleData name="elev">13.990244</SimpleData>
+		<SimpleData name="datestart">2013/08/01 10:00:00</SimpleData>
+		<SimpleData name="network">CA_COOP</SimpleData>
+		<SimpleData name="stncode">CSAC1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.0269,39.1875</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
